@@ -10,6 +10,8 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import numpy as np
 import torch
+from numpy import interp
+
 
 
 def fitness(x):
